@@ -1,0 +1,11 @@
+name_list = ['ali' , 'atefeh' , 'reza' , 'homa' , 'amir' , 'fatemeh']
+first_aghazade = input("name of first aghazade: ")
+first_place = int(input("place of first aghazade:"))
+second_aghazade = input("name of second aghazade: ")
+second_place = int(input("place of second aghazade:"))
+third_aghazade = input("name of third aghazade: ")
+third_place = int(input("place of third aghazade:"))
+name_list.insert(first_place-1 ,first_aghazade )
+name_list.insert(second_place-1 , second_aghazade )
+name_list.insert(third_place-1 ,third_aghazade )
+print(name_list)
